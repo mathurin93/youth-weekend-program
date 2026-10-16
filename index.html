@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#121114" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="description" content="Redeemed Youth Ministry Youth Weekend 2026 — Unmasked and Unfiltered. Friday and Saturday programs, food menu, and event details." />
+<title>RYM Youth Weekend 2026 | Unmasked & Unfiltered</title>
+<!-- Live website: https://mathurin93.github.io/rym-youth-weekend/ -->
+<link rel="canonical" href="https://mathurin93.github.io/rym-youth-weekend/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Redeemed Youth Ministry" />
+<meta property="og:title" content="RYM Youth Weekend 2026 | Unmasked & Unfiltered" />
+<meta property="og:description" content="October 16–17 in Brampton! Explore the Friday and Saturday programs, food menu and event details." />
+<meta property="og:url" content="https://mathurin93.github.io/rym-youth-weekend/" />
+<meta property="og:image" content="https://mathurin93.github.io/rym-youth-weekend/assets/rym-social-preview.jpg" />
+<meta property="og:image:secure_url" content="https://mathurin93.github.io/rym-youth-weekend/assets/rym-social-preview.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:alt" content="Redeemed Youth Ministry Youth Weekend 2026 — Unmasked and Unfiltered" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="RYM Youth Weekend 2026 | Unmasked & Unfiltered" />
+<meta name="twitter:description" content="Join RYM in Brampton October 16–17. View the full program and food menu." />
+<meta name="twitter:image" content="https://mathurin93.github.io/rym-youth-weekend/assets/rym-social-preview.jpg" />
+<meta name="twitter:image:alt" content="Redeemed Youth Ministry Youth Weekend 2026 — Unmasked and Unfiltered" />
+
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+<link rel="stylesheet" href="styles.css" />
+<script src="app.js" defer></script>
+</head>
+<body>
+<div id="app" class="app-shell">
+  <div id="cover" class="cover" aria-label="Youth Weekend welcome screen">
+    <div class="cover-image"></div><div class="cover-shade"></div>
+    <div class="cover-top"><span class="cover-brand"><span class="brand-crown">♛</span> REDEEMED YOUTH MINISTRY</span><span class="cover-year">2026</span></div>
+    <div class="cover-bottom">
+      <div class="eyebrow cover-eyebrow"><span class="tiny-line"></span> OCTOBER 16–17 · BRAMPTON</div>
+      <h1 class="cover-title">TAKE OFF<br>THE <em>MASK.</em></h1>
+      <p class="cover-sub">Youth Weekend 2026 <span>·</span> Unmasked &amp; Unfiltered</p>
+      <button type="button" id="enterBtn" class="enter-button attention-button">TAP TO ENTER THE PROGRAM <i data-lucide="arrow-up-right" aria-hidden="true"></i></button>
+      <p class="tap-hint">&#8593; TAP THE RED BUTTON TO BEGIN</p>
+      <p class="cover-foot">REDEEMED YOUTH MINISTRY <span>✦</span> TOUCHING THE WORLD, ONE HEART AT A TIME</p>
+    </div>
+  </div>
+
+  <div id="mainApp" class="main-app" hidden>
+    <header class="app-header"><div class="header-logo"><span class="logo-mark">R<span>Y</span>M</span><div><span class="header-kicker">REDEEMED YOUTH MINISTRY</span><strong>YOUTH WEEKEND <span>'26</span></strong></div></div><button id="shareBtn" class="header-share" aria-label="Share this program" title="Share this program"><i data-lucide="share-2"></i></button></header>
+    <main id="screen" tabindex="-1" aria-live="polite"></main>
+    <nav class="bottom-nav" aria-label="Tap a tab to change pages">
+      <button data-tab="home" class="nav-item active" aria-label="Home"><i data-lucide="house"></i><span>Home</span></button>
+      <button data-tab="friday" class="nav-item" aria-label="Friday program"><i data-lucide="calendar-days"></i><span>Friday</span></button>
+      <button data-tab="saturday" class="nav-item" aria-label="Saturday program"><i data-lucide="calendar-check"></i><span>Saturday</span></button>
+      <button data-tab="food" class="nav-item" aria-label="Food menu"><i data-lucide="utensils-crossed"></i><span>Food</span></button>
+      <button data-tab="info" class="nav-item" aria-label="Event information"><i data-lucide="info"></i><span>Info</span></button>
+    </nav>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</div>
+</body>
+</html>
