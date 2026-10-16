@@ -23,7 +23,7 @@ const saturday=[
 ['12:55 – 1:00 PM','Introduction to Speakers & Testimonials','Naashon Nickie'],
 ['1:00 – 1:10 PM','Testimonies','Jaida, Silena, Keshawn, Haley, Eliana & Malachi'],
 ['1:10 – 1:40 PM','Praise & Worship','Praise Team'],
-['1:40 – 2:15 PM','Speakers','Caleb Hall & Ethan Lynch','Caleb speaks first'],
+['1:40 – 2:15 PM','Speakers','Caleb Hall & Ethan St.Louis','Caleb speaks first'],
 ['2:15 – 2:25 PM','Altar Call & Prayer for Families','Pastor Blair'],
 ['2:25 – 2:30 PM','Prizes','Olivia McKenzie'],
 ['2:30 – 2:40 PM','Vote of Thanks, Closing Remarks, Prayer for Lunch, Benediction & Giveaways','Pastor Blair & Latoya Graham'],
