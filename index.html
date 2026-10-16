@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
@@ -15,19 +15,12 @@
   <meta name="description"
     content="Redeemed Youth Ministry Youth Weekend 2026 — Unmasked and Unfiltered. Friday and Saturday programs, food menu, and event details." />
 
-  <!-- ==========================================
-       OFFICIAL WEBSITE URL
-       ========================================== -->
-
+  <!-- OFFICIAL WEBSITE URL -->
   <link rel="canonical" href="https://mathurin93.github.io/youth-weekend-program/" />
 
-  <!-- ==========================================
-       FACEBOOK / WHATSAPP / IMESSAGE
-       OPEN GRAPH META TAGS
-       ========================================== -->
-
+  <!-- WHATSAPP / FACEBOOK / LINK PREVIEWS -->
   <meta property="og:type" content="website" />
-
+  <meta property="og:locale" content="en_CA" />
   <meta property="og:site_name" content="Redeemed Youth Ministry" />
 
   <meta property="og:title" content="RYM Youth Weekend 2026 | Unmasked &amp; Unfiltered" />
@@ -37,26 +30,20 @@
 
   <meta property="og:url" content="https://mathurin93.github.io/youth-weekend-program/" />
 
-  <!-- SOCIAL SHARING IMAGE -->
-
+  <!-- SOCIAL PREVIEW IMAGE -->
   <meta property="og:image"
     content="https://mathurin93.github.io/youth-weekend-program/assets/rym-social-preview.jpg" />
 
   <meta property="og:image:secure_url"
     content="https://mathurin93.github.io/youth-weekend-program/assets/rym-social-preview.jpg" />
 
-  <meta property="og:image:type" content="image/jpeg" />
-
   <meta property="og:image:width" content="1200" />
-
   <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/jpeg" />
 
   <meta property="og:image:alt" content="Redeemed Youth Ministry Youth Weekend 2026 — Unmasked and Unfiltered" />
 
-  <!-- ==========================================
-       TWITTER / X SOCIAL PREVIEW
-       ========================================== -->
-
+  <!-- TWITTER / X -->
   <meta name="twitter:card" content="summary_large_image" />
 
   <meta name="twitter:title" content="RYM Youth Weekend 2026 | Unmasked &amp; Unfiltered" />
@@ -67,280 +54,144 @@
   <meta name="twitter:image"
     content="https://mathurin93.github.io/youth-weekend-program/assets/rym-social-preview.jpg" />
 
-  <meta name="twitter:image:alt" content="Redeemed Youth Ministry Youth Weekend 2026 — Unmasked and Unfiltered" />
+  <meta name="twitter:image:alt" content="RYM Youth Weekend 2026 — Unmasked and Unfiltered" />
 
-  <!-- ==========================================
-       WEB APP CONFIGURATION
-       ========================================== -->
-
+  <!-- WEB APP -->
   <link rel="manifest" href="manifest.webmanifest" />
-
   <link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
 
-  <!-- ==========================================
-       GOOGLE FONTS
-       ========================================== -->
-
+  <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
   <link
     href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&amp;family=DM+Sans:wght@400;500;600;700;800&amp;display=swap"
     rel="stylesheet" />
 
-  <!-- ==========================================
-       TAILWIND CSS
-       ========================================== -->
-
+  <!-- TAILWIND -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- ==========================================
-       LUCIDE ICONS
-       ========================================== -->
-
+  <!-- ICONS -->
   <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
 
-  <!-- ==========================================
-       CUSTOM STYLES
-       ========================================== -->
-
+  <!-- APP STYLES AND SCRIPTS -->
   <link rel="stylesheet" href="styles.css" />
-
-  <!-- ==========================================
-       APPLICATION JAVASCRIPT
-       ========================================== -->
-
   <script src="app.js" defer></script>
-
 </head>
 
 <body>
-
   <div id="app" class="app-shell">
 
-    <!-- ========================================
-         FULL SCREEN WELCOME OVERLAY
-         ======================================== -->
-
+    <!-- WELCOME SCREEN -->
     <div id="cover" class="cover" aria-label="Youth Weekend welcome screen">
-
-      <!-- Background Image -->
-
       <div class="cover-image"></div>
-
-      <!-- Background Gradient -->
-
       <div class="cover-shade"></div>
 
-      <!-- Cover Header -->
-
       <div class="cover-top">
-
         <span class="cover-brand">
-
           <span class="brand-crown">♛</span>
-
           REDEEMED YOUTH MINISTRY
-
         </span>
 
-        <span class="cover-year">
-          2026
-        </span>
-
+        <span class="cover-year">2026</span>
       </div>
 
-      <!-- Cover Main Content -->
-
       <div class="cover-bottom">
-
         <div class="eyebrow cover-eyebrow">
-
           <span class="tiny-line"></span>
-
           OCTOBER 16–17 · BRAMPTON
-
         </div>
 
         <h1 class="cover-title">
-
-          TAKE OFF<br />
-
+          TAKE OFF<br>
           THE <em>MASK.</em>
-
         </h1>
 
         <p class="cover-sub">
-
           Youth Weekend 2026
-
           <span>·</span>
-
           Unmasked &amp; Unfiltered
-
         </p>
-
-        <!-- ANIMATED ENTER BUTTON -->
 
         <button type="button" id="enterBtn" class="enter-button attention-button"
           aria-label="Tap to enter the Youth Weekend program">
-
           TAP TO ENTER THE PROGRAM
-
           <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-
         </button>
 
-        <!-- Tap Instruction -->
-
         <p class="tap-hint">
-
           &#8593; TAP THE RED BUTTON TO BEGIN
-
         </p>
-
-        <!-- Cover Footer -->
 
         <p class="cover-foot">
-
           REDEEMED YOUTH MINISTRY
-
           <span>✦</span>
-
           TOUCHING THE WORLD, ONE HEART AT A TIME
-
         </p>
-
       </div>
-
     </div>
 
-    <!-- ========================================
-         MAIN APPLICATION
-         ======================================== -->
-
+    <!-- MAIN APPLICATION -->
     <div id="mainApp" class="main-app" hidden>
 
-      <!-- ======================================
-           APPLICATION HEADER
-           ====================================== -->
-
       <header class="app-header">
-
         <div class="header-logo">
-
           <span class="logo-mark">
-
             R<span>Y</span>M
-
           </span>
 
           <div>
-
             <span class="header-kicker">
-
               REDEEMED YOUTH MINISTRY
-
             </span>
 
             <strong>
-
-              YOUTH WEEKEND
-
-              <span>'26</span>
-
+              YOUTH WEEKEND <span>'26</span>
             </strong>
-
           </div>
-
         </div>
-
-        <!-- SHARE BUTTON -->
 
         <button type="button" id="shareBtn" class="header-share" aria-label="Share this program"
           title="Share this program">
-
-          <i data-lucide="share-2" aria-hidden="true"></i>
-
+          <i data-lucide="share-2"></i>
         </button>
-
       </header>
 
-      <!-- ======================================
-           DYNAMIC PAGE CONTENT
-           ====================================== -->
-
+      <!-- DYNAMIC CONTENT -->
       <main id="screen" tabindex="-1" aria-live="polite"></main>
 
-      <!-- ======================================
-           FIXED BOTTOM NAVIGATION
-           ====================================== -->
-
+      <!-- FIXED BOTTOM NAVIGATION -->
       <nav class="bottom-nav" aria-label="Tap a tab to change pages">
-
-        <!-- HOME TAB -->
-
         <button type="button" data-tab="home" class="nav-item active" aria-label="Home" aria-current="page">
-
-          <i data-lucide="house" aria-hidden="true"></i>
-
+          <i data-lucide="house"></i>
           <span>Home</span>
-
         </button>
-
-        <!-- FRIDAY TAB -->
 
         <button type="button" data-tab="friday" class="nav-item" aria-label="Friday program">
-
-          <i data-lucide="calendar-days" aria-hidden="true"></i>
-
+          <i data-lucide="calendar-days"></i>
           <span>Friday</span>
-
         </button>
-
-        <!-- SATURDAY TAB -->
 
         <button type="button" data-tab="saturday" class="nav-item" aria-label="Saturday program">
-
-          <i data-lucide="calendar-check" aria-hidden="true"></i>
-
+          <i data-lucide="calendar-check"></i>
           <span>Saturday</span>
-
         </button>
-
-        <!-- FOOD MENU TAB -->
 
         <button type="button" data-tab="food" class="nav-item" aria-label="Food menu">
-
-          <i data-lucide="utensils-crossed" aria-hidden="true"></i>
-
+          <i data-lucide="utensils-crossed"></i>
           <span>Food</span>
-
         </button>
-
-        <!-- EVENT INFO TAB -->
 
         <button type="button" data-tab="info" class="nav-item" aria-label="Event information">
-
-          <i data-lucide="info" aria-hidden="true"></i>
-
+          <i data-lucide="info"></i>
           <span>Info</span>
-
         </button>
-
       </nav>
-
     </div>
 
-    <!-- ========================================
-         NOTIFICATION / TOAST
-         ======================================== -->
-
+    <!-- NOTIFICATIONS -->
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-
   </div>
-
 </body>
 
 </html>
